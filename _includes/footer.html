@@ -1,0 +1,12 @@
+<footer>
+  <div class="links">
+    {% if page.url != '/' %}
+    <a href="/"><i class="fa fa-bars"></i></a>
+    {% endif %}
+    <a href="https://www.linkedin.com/in/vebjornloen" target="_blank"><i class="fa fa-linkedin"></i></a>
+    <a href="mailto:vebjorn.loen@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+  </div>
+  <div class="copyright">
+      &copy; {{ site.time | date: '%Y' }} <a href="/">loen.xyz</a>
+  </div>
+</footer>
