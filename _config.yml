@@ -1,5 +1,9 @@
-title: [The title of your site]
-description: [A short description of your site's purpose]
-name: Vebjørn Loen
+title: loen.xyz
+description: loen.xyz
+name: vebjorl
+
 theme: jekyll-theme-primer
+
 markdown: kramdown
+
+permalink: pretty
